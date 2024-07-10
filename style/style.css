@@ -468,8 +468,10 @@
 /* last section */
 
 #last_section{
+    position: relative;
     background-image: url(../assets/handshake.jpg);
-    background-size: 1140px 313px;
+    background-size: cover;
+    background-position: center;
     width: 1140px;
     height: 313px;
     margin: 46px auto 80px;

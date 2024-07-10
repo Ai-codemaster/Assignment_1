@@ -4,7 +4,11 @@
     padding: 0;
     margin: 0;
     font-family: "Azeret Mono", monospace;
+    box-sizing: border-box;
 }
+
+/* header section */
+
 .navbar{
     display: flex;
     justify-content: space-between;
@@ -43,6 +47,8 @@
     cursor: pointer;
 }
 
+/* first section */
+
 #main_section{
     width: 100%;
     height: 630px;
@@ -73,14 +79,13 @@
 }
 
 .main_content p {
-    width: 852px;
+    width: 970px;
     height: 52px;
     color: rgb(13, 19, 33);
     font-family: 'Azeret Mono';
     font-size: 12px;
-    font-weight: 400;
-    line-height: 26px;
-    word-spacing: 2px;
+    font-weight: 600;
+    line-height: 23px;
     text-align: center;
     opacity: 0.7;
     margin: 0 auto;
@@ -105,4 +110,99 @@
 
 .main_content .btn_1 button:hover{
     cursor: pointer;
+}
+
+/* second section */
+
+#second_contain{
+    width: 1140px;
+    height: 1395px;
+    margin: 74px auto 0;
+    padding: 80px 97px;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.02);
+}
+.first_div{
+    width: 852px;
+    height: 115px;
+    margin: 0 47px;
+}
+.first_div h1{
+    color: rgb(13, 19, 33);
+    font-family: 'Azeret Mono';
+    font-size: 32px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.first_div p{
+    color: rgb(13, 19, 33);
+    font-family: 'Azeret Mono';
+    font-size: 12px;
+    font-weight: 400;
+    text-align: center;
+    line-height: 20px;
+    opacity: 0.7;
+    margin-top: 24px;
+}
+
+.content {
+    display: flex;
+    width: 946px;
+    height: 336px;
+    margin: 32px 0 0;
+    padding: 48px;
+    border-radius: 16px;
+    background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+}
+
+.content .same_div {
+    width: 477px;
+    height: 220px;
+    text-align: left;
+}
+
+.content .same_div h3{
+    width: 400px;
+    height: 72px;
+    margin: 8px;
+    color: rgba(13, 19, 33, 0.7);
+    font-family: 'Azeret Mono';
+    font-size: 20px;
+    font-weight: 800;
+    text-align: left;
+    word-spacing: 1px;
+    line-height: 26px;
+}
+
+.content .same_div p{
+    width: 468px;
+    height: 52px;
+    margin: 8px;
+    color: rgb(13, 19, 33);
+    font-family: 'Azeret Mono';
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 19px;
+    text-align: left;
+    opacity: 0.7;
+}
+
+.content .same_div button{
+    background: white;
+    width: 150px;
+    height: 48px; 
+    margin: 8px;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    color: rgb(13, 19, 33);
+    font-family: 'Azeret Mono';
+    font-size: 15px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.content .same_img {
+    width: 259.56px;
+    height: 217.01px;
 }

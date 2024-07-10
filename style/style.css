@@ -202,6 +202,10 @@
     text-align: center;
 }
 
+.content .same_div button:hover{
+    cursor: pointer;
+}
+
 .content .same_img {
     width: 259.56px;
     height: 217.01px;
@@ -258,4 +262,116 @@
     height: 550px;
     margin: 32px;
     border-radius: 16px;
+}
+
+/* fourth section */
+
+#target {
+    width: 1140px;
+    height: 460px;
+    margin: 183px auto 0;
+}
+
+.present_target {
+    width: 1140px;
+    height: 460px;
+}
+
+.text_section{
+    width: 946px;
+    height: 113px;
+    margin: 0 auto 48px;
+}
+
+.text_section h1{
+    width: 852px;
+    height: 37px;
+    margin-bottom: 24px;
+    color: rgb(13, 19, 33);
+    font-family: "Azeret Mono", monospace;
+    font-size: 32px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.text_section p{
+    width: 852px;
+    height: 52px;
+    color: rgb(13, 19, 33);
+    font-family: "Azeret Mono", monospace;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 23px;
+    text-align: center;
+    opacity: 0.7;
+}
+
+.p_target_section{
+    display: flex;
+    width: 100%;
+    height: auto;
+}
+.p_target_section div{
+    width: 364px;
+    height: 299px;
+    margin: 12px;
+    padding: 40px;
+    text-align: left;
+}
+
+.p_target_section div img{
+    width: 56px;
+    height: 56px;
+    margin: 12px 0;
+}
+
+.p_target_section div h2{
+    width: 284px;
+    height: 36px;
+    margin: 4px 0;
+    color: rgb(13, 19, 33);
+    font-family: "Azeret Mono", monospace;
+    font-size: 26px;
+    font-weight: 800;
+    text-align: left;
+}
+
+.p_target_section div p{
+    width: 284px;
+    height: 52px;
+    margin: 4px 0;
+    color: rgb(13, 19, 33);
+    font-family: "Azeret Mono", monospace;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: left;
+    opacity: 0.7;
+}
+
+.p_target_section div a{
+    width: 284px;
+    height: 19px;
+    margin-top: 10px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: left;
+    text-decoration-line: underline;
+}
+
+.p_target_section .div_1 {
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+}
+
+.p_target_section .div_2{
+    border-radius: 16px;
+    background: rgba(0, 76, 232, 0.05);
+}
+
+.p_target_section .div_3{
+    border-radius: 16px;
+    background: rgba(255, 223, 0, 0.05);
 }

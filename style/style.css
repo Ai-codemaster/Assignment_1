@@ -19,7 +19,7 @@
     height: 34px;
     margin-left: 150px;
     margin-top: 10px;
-    font-family: 'Azeret Mono';
+    font-family: "Azeret Mono", monospace;
     font-size: 28px;
     font-weight: 800;
 }
@@ -37,7 +37,7 @@
     opacity: 0.8;
     background: white;
     color: rgb(13, 19, 33);
-    font-family: 'Azeret Mono';
+    font-family: "Azeret Mono", monospace;
     font-size: 15px;
     font-weight: 600;
     text-align: center;
@@ -69,7 +69,7 @@
 }
 .main_content h1{
     color: rgb(13, 19, 33);
-    font-family: 'Azeret Mono';
+    font-family: "Azeret Mono", monospace;
     font-size: 40px;
     font-weight: 800;
     text-align: center;
@@ -82,7 +82,7 @@
     width: 970px;
     height: 52px;
     color: rgb(13, 19, 33);
-    font-family: 'Azeret Mono';
+    font-family: "Azeret Mono", monospace;
     font-size: 12px;
     font-weight: 600;
     line-height: 23px;
@@ -102,7 +102,7 @@
     background: rgb(13, 19, 33);
     margin: 32px auto 0;
     color: rgb(255, 255, 255);
-    font-family: 'Azeret Mono';
+    font-family: "Azeret Mono", monospace;
     font-size: 15px;
     font-weight: 600;
     text-align: center;
@@ -129,7 +129,7 @@
 }
 .first_div h1{
     color: rgb(13, 19, 33);
-    font-family: 'Azeret Mono';
+    font-family: "Azeret Mono", monospace;
     font-size: 32px;
     font-weight: 800;
     text-align: center;
@@ -137,7 +137,7 @@
 
 .first_div p{
     color: rgb(13, 19, 33);
-    font-family: 'Azeret Mono';
+    font-family: "Azeret Mono", monospace;
     font-size: 12px;
     font-weight: 400;
     text-align: center;
@@ -167,7 +167,7 @@
     height: 72px;
     margin: 8px;
     color: rgba(13, 19, 33, 0.7);
-    font-family: 'Azeret Mono';
+    font-family: "Azeret Mono", monospace;
     font-size: 20px;
     font-weight: 800;
     text-align: left;
@@ -180,7 +180,7 @@
     height: 52px;
     margin: 8px;
     color: rgb(13, 19, 33);
-    font-family: 'Azeret Mono';
+    font-family: "Azeret Mono", monospace;
     font-size: 11px;
     font-weight: 400;
     line-height: 19px;
@@ -196,7 +196,7 @@
     border: 1px solid rgb(13, 19, 33);
     opacity: 0.7;
     color: rgb(13, 19, 33);
-    font-family: 'Azeret Mono';
+    font-family: "Azeret Mono", monospace;
     font-size: 15px;
     font-weight: 600;
     text-align: center;
@@ -205,4 +205,57 @@
 .content .same_img {
     width: 259.56px;
     height: 217.01px;
+}
+
+/* third section */
+
+#third_contain{
+    width: 1140px;
+    height: 775px;
+    margin: 88px auto 0;
+}
+
+#third_contain .writing_content {
+    width: 852px;
+    height: 113px;
+    margin: 0 auto;
+}
+
+.writing_content h1{
+    width: 852px;
+    height: 37px;
+    color: rgb(13, 19, 33);
+    font-family: "Azeret Mono", monospace;
+    font-size: 32px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.writing_content p{
+    width: 100%;
+    height: 52px;
+    margin: 24px 0;
+    color: rgb(13, 19, 33);
+    font-family: "Azeret Mono", monospace;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: center;
+    opacity: 0.7;
+}
+
+.yt_video{
+    width: 1140px;
+    height: 614px;
+    margin-top: 48px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;    
+}
+
+.yt_video .iframe_select{
+    width: 1076px;
+    height: 550px;
+    margin: 32px;
+    border-radius: 16px;
 }

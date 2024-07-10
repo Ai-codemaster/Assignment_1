@@ -436,3 +436,31 @@ form input[type=submit]:hover{
 form input[placeholder]{
     padding-left: 20px;
 }
+
+/* footer section */
+
+#footer{
+    display: flex;
+    width: 100%;
+    height: 100px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.03);
+}
+
+.footer_text {
+    margin-left: 30px;
+    color: rgb(13, 19, 33);
+    font-family: "Azeret Mono", monospace;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.footer_icon{
+    margin-right: 20px;
+}
+
+.footer_icon a{
+    padding: 5px;
+}
